@@ -67,7 +67,7 @@ function deleteNote(index) {
 }
 
 let search = document.getElementsByTagName("input")[0];
-search.addEventListener("input", function() {
+search.addEventListener(".search", function() {
   let searchValue = search.value.toLowerCase();
 
   let allNotes = document.getElementsByClassName("notes");
